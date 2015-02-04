@@ -1,4 +1,5 @@
 # RefinementsFile
+[![Build Status](https://travis-ci.org/pabloh/refinements_file.svg?branch=master)](https://travis-ci.org/pabloh/refinements_file)
 
 TODO: Write a gem description
 
