@@ -81,7 +81,7 @@ module RefinementsFile
     # @return [Module]
     def refinement(file_name) # :nodoc:
       loaded_definitions[file_name] ||= begin
-        TOPLEVEL_BINDING.eval(contents_for(file_name))
+        TOPLEVEL_BINDING.dup.eval(contents_for(file_name))
         refinement_module_for(loaded_definitions[file_name])
       end
     end
