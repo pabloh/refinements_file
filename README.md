@@ -8,7 +8,7 @@ RefinementsFile is a gem that enriches Ruby with refinement definition files all
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'refinements_file'
+gem 'refinements_file', github: 'pabloh/refinements_file'
 ```
 
 And then execute:
